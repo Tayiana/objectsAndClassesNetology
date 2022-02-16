@@ -17,7 +17,7 @@ object WallService {
         val postInd = posts.indexOf(post)
         val newPost = post.copy(ownerId = post.ownerId, date = post.date)
         posts[postInd] = newPost
-        println("обновленное значение: " + newPost)
+        println("обновленное значение: $newPost")
         return true
     }
 }

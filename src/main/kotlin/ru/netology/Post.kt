@@ -1,7 +1,7 @@
 package ru.netology
 
 data class Post(
-    val id: Int,
+    var id: Int,
     var ownerId: Int,
     var fromInt: Int,
     var createdBy: Int,
