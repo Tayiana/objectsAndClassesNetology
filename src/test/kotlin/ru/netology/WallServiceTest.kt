@@ -227,10 +227,10 @@ class WallServiceTest {
         // создаём целевой сервис
         val service = WallService
         // заполняем несколькими постами
-        //service.add(firstPost)
+        service.add(firstPost)
         service.add(secondPost)
         // создаём информацию об обновлении
-        val update = fourPost//thirdPost
+        val update = thirdPost
         // выполняем целевое действие
         val result = service.update(update)
         // проверяем результат (используйте assertTrue или assertFalse)
@@ -242,8 +242,8 @@ class WallServiceTest {
         // создаём целевой сервис
         val service = WallService
         // заполняем несколькими постами
-      //  service.add(firstPost)
-     //   service.add(secondPost)
+        service.add(firstPost)
+        service.add(secondPost)
         service.add(thirdPost)
         // создаём информацию об обновлении
         val update = fourPost
